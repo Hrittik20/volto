@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2025-12-04T08:02:09.676Z\n"
+"POT-Creation-Date: 2026-02-17T08:53:23.716Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -3339,6 +3339,11 @@ msgstr ""
 msgid "Select columns to show"
 msgstr ""
 
+#. Default: "Select option"
+#: components/manage/Blocks/Search/components/SelectFacet
+msgid "Select option"
+msgstr ""
+
 #. Default: "Select relation"
 #: helpers/MessageLabels/MessageLabels
 msgid "Select relation"
@@ -3380,6 +3385,7 @@ msgid "Selection"
 msgstr ""
 
 #. Default: "Select…"
+#: components/manage/Blocks/Search/components/SelectFacet
 #: components/manage/Blocks/Search/widgets/SelectMetadataField
 #: components/manage/Contents/Contents
 #: components/manage/Widgets/ArrayWidget
@@ -4008,6 +4014,11 @@ msgstr ""
 #: components/manage/Controlpanels/Rules/AddRule
 #: components/manage/Controlpanels/Rules/EditRule
 msgid "Title field error. Value not provided or already existing."
+msgstr ""
+
+#. Default: "Toggle option"
+#: components/manage/Blocks/Search/components/ToggleFacet
+msgid "Toggle option"
 msgstr ""
 
 #. Default: "Total active and non-active objects"

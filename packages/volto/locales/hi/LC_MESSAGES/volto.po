@@ -3337,6 +3337,11 @@ msgstr "पुनरावृत्ति में जोड़ने के �
 msgid "Select columns to show"
 msgstr "प्रदर्शित करने के लिए स्तंभ चुनें"
 
+#. Default: "Select option"
+#: components/manage/Blocks/Search/components/SelectFacet
+msgid "Select option"
+msgstr ""
+
 #. Default: "Select relation"
 #: helpers/MessageLabels/MessageLabels
 msgid "Select relation"
@@ -3378,6 +3383,7 @@ msgid "Selection"
 msgstr "चयन"
 
 #. Default: "Select…"
+#: components/manage/Blocks/Search/components/SelectFacet
 #: components/manage/Blocks/Search/widgets/SelectMetadataField
 #: components/manage/Contents/Contents
 #: components/manage/Widgets/ArrayWidget
@@ -4007,6 +4013,11 @@ msgstr "शीर्षक"
 #: components/manage/Controlpanels/Rules/EditRule
 msgid "Title field error. Value not provided or already existing."
 msgstr "शीर्षक फील्ड त्रुटि। मान उपलब्ध नहीं है या पहले से मौजूद है।"
+
+#. Default: "Toggle option"
+#: components/manage/Blocks/Search/components/ToggleFacet
+msgid "Toggle option"
+msgstr ""
 
 #. Default: "Total active and non-active objects"
 #: components/manage/Controlpanels/DatabaseInformation
