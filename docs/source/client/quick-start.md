@@ -2,7 +2,7 @@
 
 The JavaScript Plone client is a library that provides easy access to the Plone REST API from a client written in TypeScript.
 This client can be used as an alternative to directly interacting with the Plone REST API.
-It's based on the foundations that [@tanstack/query](https://tanstack.com/query/latest) lays off.
+It's based on the foundation of [@tanstack/query](https://tanstack.com/query/latest).
 It should be possible to use it in React/Vue/Solid/Svelte projects.
 It provides the artifacts that TanStack Query requires to work:
 
@@ -11,9 +11,10 @@ It provides the artifacts that TanStack Query requires to work:
 - API request layer
 
 The API request layer allows to build and send arbitrary requests to Plone REST API endpoints.
-It has the potential to also be able to send requests to other `APIs` (provided the custom Query options factories/functions).
+It has the potential to send requests to other APIs, provided through the custom Query options for factories and functions.
 
-The JavaScript Plone client is conceived to work with TanStack Query, the query or mutation functions can be used to call any Plone REST API endpoint without using it.
+The JavaScript Plone client is conceived to work with TanStack Query.
+The query or mutation functions can be used to call any Plone REST API endpoint without using it.
 These functions can be used in other use cases like command line helpers, scripts or programmatic tests.
 
 ## Installation​
@@ -56,9 +57,9 @@ const { data, isLoading } = useQuery(getContentQuery({ path: pathname }));
 ```
 
 The query (or mutation) factories are functions that take an object as arguments.
-These arguments can have some common properties (like the path) and other specific depending on the nature of the endpoint that they're correspond with.
+These arguments can have some common properties, such as the path, and other specific depending on the nature of the endpoint that they're correspond with.
 
-This is a complete example of the usage of the client in a React client part:
+This is a complete example of the usage of the client in a React client component:
 
 ```jsx
 import { useQuery } from '@tanstack/react-query';
